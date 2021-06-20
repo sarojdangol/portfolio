@@ -1,0 +1,69 @@
+@media(max-width: 600px)
+{
+	.navbar-brand > img {
+    display: block;
+    height: 66px;
+    width: 139px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.home-banner {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+   background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/saroj_author.jpg') ;
+
+    background-size: cover;
+}
+
+.banner-content h1 {
+    display: inline-block;
+    font-size: 35px;
+    padding: 15px 0 19px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-weight: 200;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 375px;
+
+}
+
+.banner-content p {
+    font-size: 20px;
+    margin: 23px 0 0;
+    letter-spacing: 10px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    margin-top: -375px;
+}
+
+.site-header.fixed {
+    background-color: black;
+    padding: 0px 0;
+}
+
+
+/*.gradient {
+    left: 0;
+    opacity:0.5 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+*/
+/**/
+.navbar-toggle
+{
+    color: #fff;
+}
+
+}
+
